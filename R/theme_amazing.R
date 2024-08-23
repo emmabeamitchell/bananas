@@ -12,3 +12,6 @@ theme_amazing <- function() {
         panel.grid.major = element_line(color = "darkgreen"),
         panel.grid.minor = element_line(color = "magenta"))
 }
+
+
+
