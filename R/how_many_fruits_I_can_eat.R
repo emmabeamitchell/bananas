@@ -9,10 +9,11 @@
 #' @export
 #'
 #' @examples
-#' how_many_fruits_I_can_eat("fujis", "cuties", 4)
-how_many_fruits_I_can_eat <- function(apple, oranges, fruit_counts) {
-   print(paste("I can eat", fruit_counts, apple, "and", oranges))
+#' how_many_fruits_I_can_eat(4,"Fuji", "cuties")
+how_many_fruits_I_can_eat <- function(apples, oranges, fruit_counts) {
+   print(paste("I can eat", fruit_counts, apples, "and", oranges))
 }
+
 
 
 
